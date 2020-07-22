@@ -1,0 +1,33 @@
+Select Case C2
+
+   Case C2 < 0 AND C2 >= -50
+      C2 = 0
+
+   Case C2 < -50 AND C2 >= -100
+      C2 = 1
+	
+   Case C2 < -100 AND C2 >= -150
+      C2 = 2
+
+   Case C2 < -150 AND C2 >= -200
+      C2 = 3
+   
+   Case C2 < -200 AND C2 >= -250
+      C2 = 4
+
+   Case C2 < -250 AND C2 >= -300
+      C2 = 5
+
+   Case C2 < -300 AND C2 >= -350
+      C2 = 6
+
+   Case C2 < -350 AND C2 >= -400
+      C2 = 7
+
+   Case C2 < -400 AND C2 >= -450
+      C2 = 8
+
+   Case C2 < -450 AND C2 >= -500
+      C2 = 9
+
+End Select
